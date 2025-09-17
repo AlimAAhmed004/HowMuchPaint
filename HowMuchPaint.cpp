@@ -7,16 +7,8 @@ using namespace std;
 int main()
 { // variables for my input
     const float paintcov = 340; // sqft per gallon
-
-    int height, length;
-    int area;
-    int totalArea;
-    int gallonsNeeded;
-
-    cout << "Type the height: ";
-    cin >> height;
-    cout << "Type the length: ";
-    cin >> length;
+    float height = 6,
+          length = 10,
     
 
 
