@@ -7,17 +7,28 @@ using namespace std;
 int main()
 { // variables for my input
     const float paintcov = 340; // sqft per gallon
-    float height = 6,
-        length = 100,
+
+    int height, length;
+    int area;
+    int totalArea;
+    int gallonsNeeded;
+
+    cout << "Type the height: ";
+    cin >> height;
+    cout << "Type the length: ";
+    cin >> length;
+    
+
 
         // process
         area = height * length,
         totalArea = area * 2,
         gallonsNeeded = totalArea / paintcov;
         
-    // rounding to the nearest whole number
-    cout.setf(ios::fixed);
-    cout.precision(0);
+        // rounding to the nearest whole number
+        cout.setf(ios::fixed);
+        cout.precision(0);
+    
 
       // output
     cout << endl
