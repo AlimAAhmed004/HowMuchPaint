@@ -8,7 +8,7 @@ int main()
 { // variables for my input
     const float paintcov = 340; // sqft per gallon
     float height = 6,
-          length = 10,
+          length = 100,
     
 
 
